@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: start;
+    box-sizing: border-box;
+}
+
+html,body {
+    height: 98vh;
+    width: 100%;
+    background-color: lightslategrey;
+}
+
+#head-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin: 10px 0 10px 0;
+}
+
+#heading {
+    display: inline;
+}
+
+#versionname {
+    display: inline;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+label {
+    margin: 0 10px 0 10px;
+    font-weight: bold;
+}
+
+.bookName {
+    width: 175px;
+}
+
+input {
+    width: 100px;
+    font-size: large;
+    padding: 10px;
+}
+
+#searchbtn {
+    height: 45px;
+    width: 100px;
+    margin-left: 15px;
+    font-size: x-large;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 10px 0 10px 0;
+}
+
+.verse-container {
+    height: 500px;
+    width: 1250px;
+    margin: auto;
+    padding: 0 20px 0 20px;
+    font-size: 3rem;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content {
+    text-align: center;
+}
+
+.verse-increment {
+    height: 50px;
+    width: 400px;
+    text-align: center;
+    font-size: 1.5rem;
+    position: fixed;
+    bottom: 74%;
+    right: 1%;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.verse-decrement {
+    height: 50px;
+    width: 400px;
+    text-align: center;
+    font-size: 1.5rem;
+    position: fixed;
+    bottom: 74%;
+    left: 1%;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#random {
+    height: 300px;
+    width: 300px;
+}
