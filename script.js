@@ -56,7 +56,7 @@ function decrement() {
     verse.value = versePlus
     let x = `${bookName.value} ${chapter.value}:${versePlus}`;
     fetchVerse(x)
-    if(versePlus >= 0) {
+    if(versePlus <= 0) {
         alert("Increase the verse number to above 0")
     }
     }
