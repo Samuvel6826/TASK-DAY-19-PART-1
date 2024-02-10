@@ -139,6 +139,7 @@ input {
 @media screen and (max-width: 720px) {
 	#head-container {
 		font-size: 0.7rem;
+		padding: 0 1rem;
 	}
 	.search-container {
 		margin: auto;
@@ -174,7 +175,7 @@ input {
 		width: max-content;
 		text-align: center;
 		margin: 0;
-		height: 30px;
+		height: 25px;
 	}
 	.verse-decrement {
 		height: 50px;
