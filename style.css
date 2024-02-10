@@ -84,6 +84,7 @@ input {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
 	position: relative;
 	margin-bottom: 10px;
 }
@@ -132,4 +133,63 @@ input {
 	right: 2.5%;
 	border-radius: 10px;
 	cursor: pointer;
+}
+
+@media screen and (max-width: 720px) {
+	#head-container {
+		font-size: 0.6rem;
+	}
+	.search-container {
+		margin: auto;
+		font-size: small;
+		width: 98%;
+		height: 50%;
+		padding: 2px;
+		gap: 2px;
+	}
+	
+	label {
+		width: max-content;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+	
+	.bookName {
+		width: 50px;
+		margin: 0;
+	}
+	
+	input {
+		font-size: 8px;
+		width: 20px;
+		padding: 5px;
+		margin: 0;
+	}
+	
+	#searchbtn {
+		font-size: small;
+		width: max-content;
+		text-align: center;
+		margin: 0;
+		height: 30px;
+	}
+	.verse-decrement {
+		height: 50px;
+		width: max-content;
+		font-size: 0.8rem;
+		padding: 5px;
+	}
+	#reference {
+		font-size: 1rem;
+	}
+	.verse-increment {
+		height: 50px;
+		width: max-content;
+		font-size: 0.8rem;
+		padding: 5px;
+	}
+	#verse-container {
+		font-size: 1.5rem;
+	}
 }

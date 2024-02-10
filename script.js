@@ -32,7 +32,7 @@ async function fetchVerse(id) {
 function update(data) {
 	ref.innerHTML = data.reference || "NA";
 	versionname.innerHTML = data.translation_name || "NA";
-	content.innerHTML = data.text || "NA";
+	content.innerHTML = data.text || "Over!";
 }
 
 // NEXT PREVIOUS BUTTONS FUNCTION
